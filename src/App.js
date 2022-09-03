@@ -1,9 +1,10 @@
 import "./App.css";
 import Header from "./components/Header";
-import Nav from "./components/Nav";
 import Body from "./components/Body";
 import Footer from "./components/Footer";
 import Gallery from "./components/Gallery";
+import About from "./components/About";
+import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -11,12 +12,11 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <Nav />
         <Routes>
           <Route path="/" element={<Body />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/about" element={<About />} />
         </Routes>
-
         <Footer />
       </div>
     </Router>

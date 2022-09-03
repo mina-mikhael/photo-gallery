@@ -1,0 +1,14 @@
+.nav {
+  display: flex;
+  width: 80%;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 0.6rem;
+}
+
+.nav a {
+  margin: 0 2rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
