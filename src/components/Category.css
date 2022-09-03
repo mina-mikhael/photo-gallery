@@ -1,0 +1,19 @@
+.category img {
+  width: 28vw;
+  height: 40vh;
+  min-width: 20rem;
+  box-shadow: 2px 2px 2px 1px rgb(0, 0, 0), -0.05em 0 0.4em rgba(255, 245, 219, 0.538);
+  border-radius: 2em;
+}
+.category img:hover {
+  opacity: 80%;
+  cursor: pointer;
+  position: relative;
+  transform: scale3d(1.01, 1.01, 1.01);
+}
+
+.category h4 {
+  border-radius: 2em;
+  font-size: 1.7rem;
+  padding-top: 0.5rem;
+}

@@ -6,6 +6,7 @@
   align-items: center;
   background-color: rgba(128, 128, 128, 0.859);
   color: whitesmoke;
+  padding: 0 1rem;
 }
 
 .about h3 {
