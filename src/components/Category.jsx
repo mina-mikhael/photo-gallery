@@ -1,10 +1,9 @@
 import React from "react";
 import "./Category.css";
 
-function Category({ category }) {
-  console.log(category);
+function Category({ category, clickHandler }) {
   return (
-    <div className="category">
+    <div className="category" onClick={() => clickHandler(category.name)}>
       <img
         src={`../assets/${category.name}/${category.images[0].photo_name}`}
         alt={category.name}

@@ -9,3 +9,13 @@
   padding-bottom: 2.5rem;
   background-color: rgba(128, 128, 128, 0.859);
 }
+
+.close__gallery {
+  position: fixed;
+  top: 9.5rem;
+  right: 48.5vw;
+}
+
+.galleryPhotos {
+  background-color: rgba(128, 128, 128, 0.174);
+}

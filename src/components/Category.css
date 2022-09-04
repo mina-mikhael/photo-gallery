@@ -4,6 +4,7 @@
   min-width: 20rem;
   box-shadow: 2px 2px 2px 1px rgb(0, 0, 0), -0.05em 0 0.4em rgba(255, 245, 219, 0.538);
   border-radius: 2em;
+  transition: all 0.2s;
 }
 .category img:hover {
   opacity: 80%;

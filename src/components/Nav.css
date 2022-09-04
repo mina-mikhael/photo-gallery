@@ -11,4 +11,5 @@
   margin: 0 2rem;
   font-size: 1.2rem;
   font-weight: 700;
+  transition: all 0.15s ease-out;
 }

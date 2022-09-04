@@ -67,16 +67,6 @@ const photos = [
   },
   {
     id: 4,
-    name: "misc",
-    images: [
-      { photo_id: uuidv4(), photo_name: "misc-1.jpg" },
-      { photo_id: uuidv4(), photo_name: "misc-2.jpg" },
-      { photo_id: uuidv4(), photo_name: "misc-3.jpg" },
-      { photo_id: uuidv4(), photo_name: "misc-4.jpg" },
-    ],
-  },
-  {
-    id: 5,
     name: "nature",
     images: [
       { photo_id: uuidv4(), photo_name: "nature-1.jpg" },
@@ -84,6 +74,16 @@ const photos = [
       { photo_id: uuidv4(), photo_name: "nature-3.jpg" },
       { photo_id: uuidv4(), photo_name: "nature-4.jpg" },
       { photo_id: uuidv4(), photo_name: "nature-5.jpg" },
+    ],
+  },
+  {
+    id: 5,
+    name: "misc",
+    images: [
+      { photo_id: uuidv4(), photo_name: "misc-1.jpg" },
+      { photo_id: uuidv4(), photo_name: "misc-2.jpg" },
+      { photo_id: uuidv4(), photo_name: "misc-3.jpg" },
+      { photo_id: uuidv4(), photo_name: "misc-4.jpg" },
     ],
   },
 ];
