@@ -16,10 +16,6 @@ function Gallery() {
     setGallery(photos);
   }, []);
 
-  // useEffect(() => {
-  //   setGallerySelected(gallerySelected);
-  // }, [gallerySelected]);
-
   if (gallerySelected) {
     return (
       <div className="galleryPhotos">

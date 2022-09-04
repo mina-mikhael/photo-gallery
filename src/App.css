@@ -138,7 +138,7 @@ body {
 .App {
   text-align: center;
   background: url("../public/assets/pharohs/pharoh-9.jpg");
-  background-position-y: 7rem;
+  /* background-position-y: 7rem; */
   background-attachment: fixed;
   background-size: cover;
   overflow: hidden;
