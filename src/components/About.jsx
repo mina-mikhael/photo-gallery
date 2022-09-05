@@ -16,6 +16,14 @@ function About() {
           <li>Swiper-js</li>
           <li>git</li>
         </ul>
+        <br></br>
+
+        <a
+          href="https://github.com/mina-mikhael/photo-gallery"
+          target={"_blank"}
+          rel="noreferrer">
+          <h4> repository Link on gitHub </h4>
+        </a>
       </div>
     </section>
   );
