@@ -80,7 +80,7 @@ const photos = [
     id: 5,
     name: "misc",
     images: [
-      { photo_id: uuidv4().substring(0, 8), photo_name: "misc-1.jpg" },
+      { photo_id: uuidv4().substring(0, 8), photo_name: "misc-1.JPG" },
       { photo_id: uuidv4().substring(0, 8), photo_name: "misc-2.jpg" },
       { photo_id: uuidv4().substring(0, 8), photo_name: "misc-3.jpg" },
       { photo_id: uuidv4().substring(0, 8), photo_name: "misc-4.jpg" },
