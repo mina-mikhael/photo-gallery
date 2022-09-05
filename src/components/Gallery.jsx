@@ -88,6 +88,5 @@ function Gallery({ gallery, gallerySelected, setGallerySelected, photos, clickHa
     </section>
   );
 }
-Gallery.prototype = {};
 
 export default Gallery;
