@@ -7,11 +7,11 @@ import About from "./components/About";
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-function App() {
+function App({ gallerSelected }) {
   return (
     <Router>
       <div className="App">
-        <Header />
+        <Header gallerSelected={gallerSelected} />
         <Routes>
           <Route path="/" element={<Body />} />
           <Route path="/gallery" element={<Gallery />} />

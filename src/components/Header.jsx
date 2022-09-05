@@ -2,9 +2,10 @@ import React from "react";
 import "./Header.css";
 import Nav from "./Nav";
 
-function Header() {
+function Header({ categorySelected }) {
+  // console.log(categorySelected);
   return (
-    <div className="header">
+    <div className={`header ${categorySelected ? "hide_header" : ""}`}>
       <h1>Mina's Gallery</h1>
       <Nav></Nav>
     </div>
