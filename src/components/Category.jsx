@@ -5,7 +5,7 @@ function Category({ category, clickHandler }) {
   return (
     <div className="category" onClick={() => clickHandler(category.name)}>
       <img
-        src={`../assets/${category.name}/${category.images[0].photo_name}`}
+        src={`../assets/${category.name}/${category.images[1].photo_name}`}
         alt={category.name}
       />
       <h4>{category.name}</h4>
