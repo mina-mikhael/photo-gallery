@@ -72,8 +72,8 @@ const photos = [
       { photo_id: uuidv4().substring(0, 8), photo_name: "nature-1.jpg" },
       { photo_id: uuidv4().substring(0, 8), photo_name: "nature-2.jpg" },
       { photo_id: uuidv4().substring(0, 8), photo_name: "nature-3.jpg" },
-      { photo_id: uuidv4().substring(0, 8), photo_name: "nature-4.jpg" },
-      { photo_id: uuidv4().substring(0, 8), photo_name: "nature-5.jpg" },
+      { photo_id: uuidv4().substring(0, 8), photo_name: "nature-4.JPG" },
+      { photo_id: uuidv4().substring(0, 8), photo_name: "nature-5.JPG" },
     ],
   },
   {
